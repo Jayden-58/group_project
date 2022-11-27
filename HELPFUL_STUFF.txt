@@ -1,4 +1,6 @@
-python uses virtual environments to keep development environments clean. I've named the one we'll be using "venv". For consistancy, please use the venv when developing the project. :) 
-To activate the venv, you can go to the top of vs code to "view", click "command pallate", go to "python:select interpreter", and select the one that says "venv"
+python uses virtual environments to keep development environments clean. I've named the one we'll be using "venv". 
+For consistancy, please use the venv when developing the project. :) 
+To activate the venv, you can go to the top of vs code to "view", click "command pallate", 
+go to "python:select interpreter", and select the one that says "venv"
 
 
