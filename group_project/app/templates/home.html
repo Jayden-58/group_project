@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-
-    </head>
-    <body>
-        <h1 style = "font-size: x-large; text-align: center; color: blueviolet;">homepage test</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi itaque atque placeat quo sint ipsum, assumenda ullam, mollitia repudiandae facilis, eaque nulla quasi? Ad labore sunt accusamus, architecto explicabo odio?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est quasi molestiae cum exercitationem voluptatem deserunt sint quam, corrupti illo saepe, impedit minus aliquam recusandae! Quidem aut officiis voluptatibus mollitia.</p>
-    </body>
-</html>
+{% extends "base.html" %}
+<!--TODO: load static here-->
+{% block content %}
+    <h1 style = "text-align: center;">Homepage</h1>
+    <h2>Homepage content:</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime repellendus labore reprehenderit sed natus, ea possimus repellat molestiae voluptatibus molestias quaerat quisquam laudantium cumque exercitationem odio ex blanditiis quia expedita!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum voluptatum aut soluta impedit, commodi doloremque eius nisi expedita autem nesciunt sequi eveniet voluptatibus, esse dolore sint perferendis placeat a!</p>
+{% endblock %}
