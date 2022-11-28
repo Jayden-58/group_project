@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-<!--TODO: load static here-->
+{% load static %}
 {% block content %}
     <h1 style = "text-align: center;">Homepage</h1>
     <h2>Homepage content:</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime repellendus labore reprehenderit sed natus, ea possimus repellat molestiae voluptatibus molestias quaerat quisquam laudantium cumque exercitationem odio ex blanditiis quia expedita!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum voluptatum aut soluta impedit, commodi doloremque eius nisi expedita autem nesciunt sequi eveniet voluptatibus, esse dolore sint perferendis placeat a!</p>
+    <img style = "width: 200px; margin-left: calc(50% - 100px);" src="{% static 'home_page_images/test.jpg' %}" alt="My image">
 {% endblock %}
