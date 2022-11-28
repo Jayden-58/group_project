@@ -1,0 +1,1 @@
+the templates folder contains the templates. templates are pages that generate as we need them as we query the database. -J
